@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-amiko: "Amiko", sans-serif;
+  --font-abeezee: "ABeeZee", sans-serif;
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+.btnRed {
+  @apply bg-[#E73D1E] text-white p-3 rounded-[5px] font-[var(--font-abeezee)] italic;
+  font-family: var(--font-abeezee);
+}
+
+.btnBlue {
+  @apply bg-[#6c9fd5] text-white p-3 rounded-[5px] font-[var(--font-abeezee)] italic;
+}
+
+.bg-footer {
+  background-image: url("../assets/images/footer.svg");
+}
