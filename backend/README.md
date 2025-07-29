@@ -54,6 +54,10 @@ Popular la base de datos
 ```
 http://localhost:4000/seed
 ```
+# Documentacion de endpoints
+```
+http://localhost:4000/api
+```
 
 ## Compile and run the project
 
