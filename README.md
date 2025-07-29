@@ -1,4 +1,4 @@
-# Sistema Fullstack de Facturación
+# Sistema Fullstack de Destinos turisticos
 
 Este es un monorepo que contiene el **frontend** y el **backend** del sistema de destinos turisticos. Está diseñado para una arquitectura modular y escalable.
 
